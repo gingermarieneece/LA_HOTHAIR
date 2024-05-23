@@ -5,6 +5,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "aws-amplify": "^6.3.3",
     "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -31,5 +32,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.0.2",
+    "@aws-amplify/backend-cli": "^1.0.3",
+    "aws-cdk": "^2.142.1",
+    "aws-cdk-lib": "^2.142.1",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.21.3",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
   }
 }
